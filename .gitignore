@@ -1,2 +1,3 @@
 #Todos os arquivos mencionado aqui seram ignorados:
 .env
+.package-lock.json
