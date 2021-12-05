@@ -12,7 +12,7 @@ routes.get("/", (req, res)=>{
 routes.post("/login", LoginController.index);
 
 //Adicionar Usuários
-routes.post("/user", UserController.store);
+routes.post("/add", UserController.store);
 
 //Mostrar Usuários
 routes.get("/users", UserController.show);
