@@ -1,0 +1,3 @@
+#Todos os arquivos mencionado aqui seram ignorados:
+node_modules/
+*.lock
