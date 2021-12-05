@@ -1,3 +1,4 @@
 #Todos os arquivos mencionado aqui seram ignorados:
+node_modules/
 .env
 .package-lock.json
