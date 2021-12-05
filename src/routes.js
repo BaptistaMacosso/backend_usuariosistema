@@ -15,7 +15,7 @@ routes.post("/login", LoginController.index);
 routes.post("/user", UserController.store);
 
 //Mostrar Usuários
-routes.get("/user", UserController.show);
+routes.get("/users", UserController.show);
 
 //Alterar Usuários
 routes.patch("/:id", Middleware, UserController.alterar);
