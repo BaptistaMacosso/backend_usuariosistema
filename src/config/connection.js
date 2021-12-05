@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require("dotenv").config();
 class connection{
     //Construtor
     constructor(){
@@ -6,7 +7,7 @@ class connection{
     }
 
     databaseConnectionMongoDB(){
-        this.mongoDBConnection = mongoose.connect("mongodb://localhost/nodejs",{
+        this.mongoDBConnection = mongoose.connect(process.env.DATABASE_URL,{
             useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() =>{

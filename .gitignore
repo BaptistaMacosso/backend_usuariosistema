@@ -1,2 +1,4 @@
 #Todos os arquivos mencionado aqui seram ignorados:
-*.lock
+.lock
+.env
+.gitignore
