@@ -4,6 +4,10 @@ const LoginController = require('./apps/Controllers/LoginController');
 const Middleware = require('./apps/Middlewares/AuthMiddleware');
 const routes = new Router();
 
+//Rota base
+routes.get("/", (req, res)=>{
+    res.send("Bem-Vindo a API de controlo de Usuário");
+});
 //Login Usuários
 routes.post("/login", LoginController.index);
 
